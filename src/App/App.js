@@ -7,15 +7,15 @@ import Filme from "../pages/Filme";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#333996",
+      main: "#457ab7",
       light: '#3c44b126'
     },
     secondary: {
-      main: "#f83245",
+      main: "#457ab7",
       light: '#f8324526'
     },
     background: {
-      default: "#f4f5fd"
+      default: "#f2f2f2"
     },
   },
   overrides:{
