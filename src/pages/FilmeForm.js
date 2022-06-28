@@ -25,13 +25,13 @@ export default function EmployeeForm(props) {
         if ('fullName' in fieldValues)
             temp.fullName = fieldValues.fullName ? "" : "This field is required."
         if ('genreId' in fieldValues)
-            temp.genreId = fieldValues.genreId.length != 0 ? "" : "This field is required."
+            temp.genreId = fieldValues.genreId.length !== 0 ? "" : "This field is required."
         setErrors({
             ...temp
         })
 
-        if (fieldValues == values)
-            return Object.values(temp).every(x => x == "")
+        if (fieldValues === values)
+            return Object.values(temp).every(x => x === "")
     }
 
     const {
